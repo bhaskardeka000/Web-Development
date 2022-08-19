@@ -1,0 +1,429 @@
+     /* top.php */
+    body{
+        padding:0px;
+        margin:0px;
+    }
+    .maindiv{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background-color: #3a6a8c;
+        height:110px;
+        z-index:1;
+    }
+.nav{
+    display: flex;
+    justify-content: right;
+    margin-right:15%;
+}
+.logo{
+    flex:1;
+    margin-left:166px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+a{
+    margin:0px 15px;
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style:none;
+}
+
+
+
+/* index.php */
+*{
+    box-sizing: border-box;
+}
+.slider-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3a6a8c;
+    padding-bottom:25px;
+}
+.slider{
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+}
+.images{
+    display: flex;
+    width: 100%;
+    padding-bottom:360px;
+}
+.images{
+    height: 54px;
+}
+.images img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+
+}
+.dots label{
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover{
+    background-color: white;
+}
+#img1:checked ~ #m1{
+margin-left: 0;
+}
+#img2:checked ~ #m2{
+margin-left: -100%;
+}
+.hrdiv{
+    padding:1px;
+    background-color: #3a6a8c;
+}
+#hrid{
+    width:95%;
+}
+.whitebg{
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+}
+
+
+/* prop1.php */
+    .registered{
+        margin-left: 43px;
+        font-family: monospace;
+        font-size: 33px;
+        font-weight: bold;
+        color: #3a6a8c;
+        text-transform: uppercase;
+        height: 22px; }
+        .hr-prop{
+            border: 1px solid #e6e6e6;
+            width: 95%;
+        }
+        .searchclass{
+            border: 2px solid #0c0c0cc2;
+            padding: 15px 0px;
+            margin: 0px 40px;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 37px;
+        }
+        #searchid{
+            margin-left: 30px;
+            padding: 4px 5px;
+            border: 2px solid #3a6a8c;
+            outline: none;
+            width: 17%;
+            padding-bottom: 3px;
+            border-radius: 4px;
+        }
+        #searchbtn{
+            padding: 4px 28px;
+            background: #3a6a8c;
+            color: white;
+            border: 1px solid #3a6a8c;
+            font-family: revert;
+            font-size: 14px;
+            cursor: pointer;
+            margin-left: -9px;
+            border-radius: 4px;
+        }
+ 
+/* prop2.php */
+        .gridclass{
+            display:flex;
+            justify-content:center;
+            background: #f2f2f2;
+            border-radius: 8px;
+            padding-bottom:21px;
+            margin:0px 20px;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            margin:0px 12px;
+            grid-column-gap: 30px;
+            grid-row-gap: 70px;
+            padding-bottom: 76px;
+        }
+        
+        .card-image{
+            border-radius:5px;
+        }
+        h6,.card-title{
+            font-size:17px;
+        }
+        .card-title{
+            margin:23px auto;
+        }
+        .viewclass{
+            display: flex;
+            justify-content: center;
+        }
+        .details{
+            background: #4775ad;
+            padding: 8px 13px;
+            border-radius: 3px;
+            text-decoration:none;
+            color:white;
+        }
+
+        /* search.php */
+        .wbg2,.wbg3,.login_wbg_div,.wbg_about-us{
+            padding-bottom: 50px;
+            background-color: #e6e6e6;
+        }
+        .nodata{
+            margin-left: 31px;
+        }
+
+        /* prop_details.php */
+        .wbg_prop_details{
+            padding-bottom: 50px;
+    background-color: #e6e6e6;
+        }
+        #vertical #Thead,#vertical #Tbody{
+            display:inline-block;
+            border-collapse:collapse;
+        }
+        #prop_th{
+            border: 2px solid white;
+    border-right: 0px;
+    padding: 10px 130px;
+    background-color: #3a6a8c;
+    color: white;
+        }
+#prop_td{
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px 75px 10px 8px;
+    border-left: none;
+}
+#prop_details_head1{
+    margin-left: 8px;
+    font-family: monospace;
+    font-size: 33px;
+    font-weight: bold;
+    color: #3a6a8c;
+    text-transform: uppercase;
+    height: 22px;
+}
+#prop_details_hr1{
+    border: 1px solid #e6e6e6;
+    width:  378px;
+    margin-left: 10px;
+}
+#prop_details_hr2{
+    border: 1px solid #e6e6e6;
+    width:  309px;
+    margin-left: 10px;
+}
+#prop_photo_div{
+    margin-left:28px;
+}
+.prop_details_main_div{
+    display:flex;
+    margin: 0px 25px;
+}
+
+/* footer.php, top.php */
+.overall_main_div{
+    position: relative;
+    min-height: 100vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center;
+    color: white;
+    background-color: #3a6a8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* #contact-us */
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background:rgba(0,0,0,0.7);
+    position: absolute;
+    top: 55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align:center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight:200;
+    color: white;
+
+}
+.texb{
+    border:1px solid gray;
+    margin:25px 0 ;
+    padding:12px,18px;
+    border-radius: 8px;
+    color: white;
+    padding-bottom: 12px;
+}
+.texb label{
+    display:block;
+    text-align: center;
+    columns: #333;
+    text-transform: uppercase;
+    font-size:14px;
+    
+}
+.texb input,.texb textarea{
+width: 100%;
+border:none;
+background:none;
+outline:none;
+font-size:14px;
+padding-bottom: 5px;
+color: yellow;
+
+}
+.btn{
+    border: 3px solid #3a6a8c;
+    width: 100%;
+    padding: 10px 46px;
+    cursor: pointer;
+    background-color: #3a6a8c;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    outline: none;
+    margin-bottom: 10px;
+}
+.contact_us_message_div{
+    margin-top: 35px;
+}
+   #contact_us_no{
+        margin:0px;
+    }
+    #contact_span{
+        color: #16a8fa;
+    }
+    .contact_main_div{
+        background-color: #5893bf;
+        padding-bottom: 750px;
+    }
+    .wbg_contact{
+        padding-bottom: 50px;
+        background-color: white;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+   /* login.php */
+   .form-box{
+    height: 397px;
+    padding-bottom: 27px;
+    margin: 0px 574px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px;
+}
+#lbl1{
+    padding: 10px 46px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #65cbf8;
+    color: white;
+    font-size: 17px;
+}
+.input-field{
+    width: 74%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid aqua;
+    outline: none;
+    background: transparent;
+    font-family: cursive;
+}
+
+.submit-btn-login{
+    width: 65%;
+    padding: 15px 35px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    background-color: #65cbf8;
+    color: white;
+    font-size: 15px;
+
+}
+.login_main_class{
+    background-color: #65cbf8;
+    height: 640px;
+    padding-top: 39px;
+}
+
+/* about us */
+.about-section{
+    text-align: center;
+}
+.about-section h1{
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-top: 0px;
+
+}
+.about-section p{
+    color: white;
+    font-family: "Merriweather", Roboto, sans-serif;
+    font-size: 20px;
+    padding: 36px;
+}
+.developed_by{
+    color: #000000;
+    padding: 56px;
+    padding-top: 0px;
+    font-family: "Merriweather", Roboto, sans-serif;
+    font-size: 13px;
+}
+.about_us_main_div{
+    background: #f4623a;
+    padding-top: 45px;
+    padding-bottom: 138px;
+}
