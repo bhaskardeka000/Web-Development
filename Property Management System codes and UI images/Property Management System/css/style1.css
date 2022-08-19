@@ -1,0 +1,341 @@
+/* top1.php */
+ body{
+    padding:0px;
+    margin:0px;
+}
+.maindiv{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #3a6a8c;
+    height:110px;
+    z-index:1;
+}
+.nav{
+display: flex;
+justify-content: right;
+margin-right:15%;
+}
+.logo{
+flex:1;
+margin-left:166px;
+letter-spacing: 1px;
+font-weight: bold;
+font-size: 35px;
+text-decoration: none;
+color: white;
+}
+#aclass{
+margin:0px 15px;
+text-decoration: none;
+color: white;
+}
+li{
+list-style:none;
+}
+
+/* index1.php */
+.nameclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    background-color: #2f3036;
+}
+#welcomeh3{
+    color: white;
+}
+.tableclass{
+    height: 136%;
+    padding-bottom: 100%;
+    background-color: #f2f2f2;
+}
+
+/* manage_property2.php */
+.wbg4{
+    padding-bottom: 38px;
+    background-color:white;
+}
+
+/* account.php */
+.wbg5,.wbg6,.change_pwd_wbg{
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+}
+.account_head{
+    margin-left: 43px;
+    font-family: monospace;
+    font-size: 33px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+    height: 22px;
+    letter-spacing: 4px; 
+    margin-top: 0px;
+    padding-top: 25px; 
+    }
+    .account_hr,#add_edit_property_hr{
+        border: 1px solid #e6e6e6;
+        width: 95%;
+    }
+    .updateclass{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #313030;
+        margin: 0px 564px;
+        margin-top: 51px;
+        border-radius: 6px;
+        padding-top: 15px;
+    }
+    #update_input,#property_update_input{
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid #2196F3;
+    width: 341px;
+    margin: 18px 0px;
+    padding: 6px 0px;
+    padding-left: 10px;
+    background-color: #313030;
+    color: white;
+    }
+.acc_head_class{
+padding-bottom: 100px;
+background: #424242;
+}
+#account_update_submit{
+    padding: 6px 28px;
+    background: #2196F3;
+    color: white;
+    border: 1px solid #2196F3;
+    font-family: revert;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 13px;
+    outline: none;
+}
+#form_hr,#form_hr1{
+    background: #2196F3;
+    box-shadow: none;
+    border: none;
+    height: 2px;
+    width: 25%;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+#update_input_email{
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid #2196F3;
+    width: 341px;
+    margin: 18px 0px;
+    padding: 6px 0px;
+    padding-left: 10px;
+    background-color: #313030;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* new_property.php */
+.new_property_main_div{
+padding-bottom: 100px;
+background: #424242;
+}
+#new_property_head{
+    margin-left: 43px;
+    font-family: monospace;
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    height: 22px;
+    letter-spacing: 4px;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+.property_update_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313030;
+    margin: 0px 564px;
+    margin-top: 51px;
+    border-radius: 6px;
+    padding-top: 15px;
+}
+#property_update_input_image{
+    border-bottom: 0px;
+    padding-left: 1px;
+    padding: 0px;
+    margin: 8px 0px;
+    margin-bottom: 9px;
+    outline: none;
+    color: #8a8a8a;
+}
+#property_update_submit{
+    padding: 6px 28px;
+    background: #2196F3;
+    color: white;
+    border: 1px solid #2196F3;
+    font-family: revert;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 30px;
+    outline: none;
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+#property_update_input_name{
+    outline: none;
+    border: 0px;
+    border-bottom: 1px solid #2196F3;
+    width: 341px;
+    margin: 18px 0px;
+    padding: 6px 0px;
+    padding-left: 10px;
+    background-color: #313030;
+    color: white;
+    margin-bottom: 3px;
+}
+
+/* footer1.php, top1.php */
+.overall_main_div_1{
+    position: relative;
+    min-height: 100vh;
+}
+.footer1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    text-align: center;
+    color: white;
+    background-color: #3a6a8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* reset_password */
+.main-form-reset{
+    display: flex;
+flex-direction: column;
+margin: 0px 600px;
+justify-content: center;
+align-items: center;
+padding-bottom: 50px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 5px 5px 15px;
+}
+.input_reset_password{
+    padding: 11px 9px;
+padding-right: 145px;
+border-radius: 5px;
+border: 1px solid #ced4da;
+background-color: #fff;
+outline: none;
+margin: 10px 0px;
+}
+.reset_password_btn{
+    width: 83%;
+padding: 10px 0px;
+cursor: pointer;
+background: #5757d1;
+color: #fff;
+font-size: 17px;
+border: 1px solid #ced4da;
+border-radius: 5px;
+outline: none;
+}
+.reset_pwd_div{
+    padding-bottom: 215px;
+    padding-top: 56px;
+    background: #5778d1;
+}
+
+/* manage_property1.php */
+.property_container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+    padding-bottom:70px;
+    }
+    table{
+    border-radius:2px;
+    width:87%;
+    border-collapse: collapse;
+    border-style: hidden;
+    box-shadow: 0 0 0 2px #3a6a8c; 
+    }
+    td,th{
+    padding: 22px 18px;
+    text-align:left; }
+    td{
+    font-size:18px;
+    border: 0px;
+    }
+    th{
+    font-size:18px;
+    color:#fff;
+    background-color: #3a6a8c;
+    border:0px;
+    }
+    tr:nth-child(odd) {
+    background-color: #8ba5b7;
+    }
+    .actions1{
+    border-radius: 5px;
+    padding: 7px 17px;
+    background-color: #03A9F4;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+    }
+    .actions3{
+    border-radius: 5px;
+    padding: 7px 17px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+    }
+    #actionid{
+        padding-right:135px;
+    }
+    tr:nth-child(even){
+        background-color:#fbfbfb;
+    }
+    #addprop{
+        margin-left: 50px;
+        color: #1053e8;
+    }
+    #prop_manager_head{
+        margin-left: 50px;
+        font-family: monospace;
+        font-size: 33px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        height: 35px;
+        margin-top: 0px;
+        padding-top: 22px;
+        text-decoration: underline;
+    }
+    .overall_property_div{
+        background-color: #e0e0e0;
+    }
