@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the voting system</title>
+    <link href="css/index1.css" rel="stylesheet">
+</head>
+<body>
+    
+<div id="container">
+
+<div id="innercontent">
+    <h2 id="voting">Vote for your favourite branch</h2>
+</div>
+
+
+<form action="votesubmit.php" method="post" enctype="multipart/form-data">
+
+<label id="info">Name:</label> <br>
+<input id="infobox" type="text" name="name" placeholder="Enter your name" required>
+<br><br>
+<label id="info">Roll No:</label><br>
+<input id="infobox" type="number" name="rollno" placeholder="Enter your roll no" required>
+<br><br>
+
+<label id="info">Vote for:</label><br><br>
+<input id="rbutton" type="radio" name="vote" value="CSE" required="required"> <label id="info">Computer Science Engineering(CSE)</label> <br><br>
+<input id="rbutton" type="radio" name="vote" value="CE"> <label id="info">Civil Engineering(CE)</label> <br><br>
+<input id="rbutton" type="radio" name="vote" value="ME"> <label id="info">Mechanical Engineering(ME)</label> <br><br>
+<input id="rbutton" type="radio" name="vote" value="EE"> <label id="info">Electrical Engineering(EE)</label> <br><br>
+<input id="rbutton" type="radio" name="vote" value="ECE"> <label id="info">Electronics and Communication Engineering(ECE)</label> <br><br><br>
+<input id="sub" type="submit" name="submit">
+
+</form>
+
+</div>
+
+<div class="new2">
+    <button id="back4" onclick="goback()">Go back</button>
+    </div>
+       <script>
+        function goback()
+        {
+            history.back(-1);
+        }
+    </script>
+
+</body>
+</html>

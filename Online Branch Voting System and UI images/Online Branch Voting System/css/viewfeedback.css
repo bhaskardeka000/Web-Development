@@ -1,0 +1,20 @@
+#go{
+    border: 2px solid #acded7;
+    margin: 17px 171px;
+    padding: 50px 23px;
+    background-color: black;
+    color: white;
+    border-radius: 13px;
+    font-family: cursive;
+    font-size: 15px;
+}
+body{
+    background-color: #1c1d18;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin: 39px 0px;
+    font-family: monospace;
+    font-size: 40px;
+}

@@ -1,0 +1,14 @@
+.logintext{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logid{
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+}
+body{
+    background-color: #76cc52;
+}

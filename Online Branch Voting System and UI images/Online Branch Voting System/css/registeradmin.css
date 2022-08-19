@@ -1,0 +1,21 @@
+.content{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#l1{
+    font-size: 34px;
+    font-family: cursive;
+}
+#l2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#l3{
+    font-size: 20px;
+}
+body{
+    background-color: #6ca2c7;
+}

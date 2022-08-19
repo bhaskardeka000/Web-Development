@@ -1,0 +1,21 @@
+.subvote{
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#votetext1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#votetext2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #b39ce0;
+}
+hr{
+    margin: 0px 305px;
+}

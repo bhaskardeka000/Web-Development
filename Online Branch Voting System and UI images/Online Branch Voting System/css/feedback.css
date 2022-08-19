@@ -1,0 +1,21 @@
+
+    .message{
+        height: 297px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+}
+#messageid{
+    font-family: monospace;
+    font-size: 43px;
+}
+body{
+    background-color: #ecaf6e;
+}
+    
+hr{
+    margin: 0px 305px;
+}
+
+

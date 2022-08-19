@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+<title>Registration Page | admin</title>
+        <link rel="stylesheet" href="css/register.css">
+    </head>
+<body>
+   
+        <div class = "form-box">
+        <div class ="button-box">
+        <div id="registerlabel">
+            <p id="lb1">Register</p>
+        </div>
+        </div>
+
+            <div class="social-icons">
+            <img src="img/gt.png">
+            <img src="img/insta.png">
+            <img src="img/linkdin.png">
+            </div>
+
+            <form id="register"class="input-group" action="admin_register_details.php" method="post">
+            <input type="text" class="input-field" placeholder="Name" required name="name">
+                <input type="number" class="input-field" placeholder="Roll no" required name="rollno">
+                <input type="date" class="input-field" placeholder="DOB*(dd/mm/yyyy)" required name="date">
+                <input type="number" class="input-field" placeholder="phone number" required name="phone">
+            <input type="number" class="input-field" placeholder="Age" required name="age">
+          <input type="number" class="input-field" placeholder="Enter password" required name="password"><br><br>
+                
+            <button type="submit" id="sub-btn">Submit</button>
+            <p id="p1">Already registered? &nbsp;<a href="admin_login1.html">Login here</a></p>
+            </form>
+        
+            
+        </div>
+
+
+   
+        </body>
+      
+</html>

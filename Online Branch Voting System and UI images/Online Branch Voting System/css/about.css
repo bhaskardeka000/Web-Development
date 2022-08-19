@@ -1,0 +1,36 @@
+.aboutclass{
+/* border: 3px solid red; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+#l1{
+    color: #91b735;
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#l2{
+    color: #87a6de;
+    font-size: 19px;
+}
+body{
+    background-color: black;
+}
+#back1{
+    color: white;
+    background-color: rgb(65 92 97);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px 16px;
+}
+#back1:hover{
+    color: tomato;
+}
+.new{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}

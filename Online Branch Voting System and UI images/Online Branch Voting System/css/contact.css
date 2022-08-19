@@ -1,0 +1,35 @@
+.main1{
+    /* border:3px solid red; */
+    display: flex;
+    justify-content: center;align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+#contact{
+    font-size: 19px;
+}
+body{
+    background-color: #feffcd;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#back3{
+    color: white;
+    background-color: rgb(65 92 97);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px 16px;
+}
+#back3:hover{
+    color: tomato;
+}
+.new1{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
