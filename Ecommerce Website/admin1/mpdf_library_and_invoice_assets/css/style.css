@@ -1,0 +1,160 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: arial;
+}
+/* .main_div{
+   margin: 0 25%;
+   margin-top: 0;
+} */
+.company_details_main_div{
+   border-bottom: 2px solid black;
+   padding: 0 35px;
+   padding-top: 25px;
+   padding-bottom: 20px;
+   /* margin: 0; */
+}
+/* .invoice_div, .order_id_and_date_div{
+   display: flex;
+   justify-content: flex-end;
+} */
+h5{
+   /* margin-top: 40px; */
+   margin-top: 54px;
+   font-size: 22px;
+   /* font-weight: 600; */
+   font-weight: bold;
+}
+.company_name{
+   font-weight: bold;
+   font-size: 18px;
+   margin-bottom: 1rem;
+}
+.company_address_h6{
+   font-size: 18px;
+   margin: 0;
+   margin-bottom: 0.5rem;
+   font-weight: 500;
+   line-height: 1.2;
+}
+.delivery_address_p{
+   font-weight: bold;
+   font-size: 16px;
+   margin-bottom: 1rem;
+}
+.user_name_h6, .delivery_address_h6{
+   font-size: 16px;
+   margin: 0;
+   margin-bottom: 0.5rem;
+   font-weight: 500;
+   line-height: 1.2;
+}
+.invoice_number, .order_id_number, .order_date, .payment_mode{
+   font-weight: bold;
+   font-size: 15px;
+   /* margin-bottom: 1rem; */
+}
+.invoice_number span, .order_id_number span, .order_date span, .payment_mode span{
+   font-weight: normal;
+}
+.delivery_details_main_div{
+padding: 0 35px;
+/* padding-right: -169px; */
+/* padding-top: 35px; */
+padding-top: 7px;
+/* padding-bottom: 20px; */
+/* padding-bottom: 116px; */
+/* margin: 0; */
+}
+table{
+text-align: center;
+border: 2px solid black;
+width: 100%;
+border-collapse: collapse;
+overflow: wrap;
+}
+/* thead tr{
+  border-bottom: 2px solid black;
+} */
+th, td{
+   border-right: 2px solid black;
+}
+th{
+padding: 5px 0;
+}
+td{
+   padding: 10px 0;
+}
+.product{
+   width: 300px;
+}
+.price{
+   width: 138px;
+}
+.sub_total{
+   width: 170px;
+}
+.grand_total{
+   text-align: right !important;
+   border-top: 2px solid black;
+   font-weight: bold;
+   /* padding-left: 0 !important; */
+   padding-right: 5px;
+}
+.rupees_with_grand_total{
+   border-top: 2px solid black;
+   font-weight: bold;
+}
+/* th:first-child, td:first-child */ .td_first, .th_first{
+   text-align: left;
+   padding-left: 5px;
+}
+.product_details_main_div{
+padding: 0 35px;
+padding-top: 25px;
+/* padding-bottom: 20px; */
+margin: 0;
+margin-bottom: 95px;
+/* display: flex;
+justify-content: center; */
+}
+.computer_generated_invoice_text{
+   text-align: center;
+   font-weight: bold;
+}
+/* .main_div{
+border: 1px solid black;
+} */
+/* table{ */
+/* width: 100%; */
+/* width: 100%; */
+/* border-collapse: collapse; */
+/* } */
+th:last-child, td:last-child{
+   border-right: none;
+}
+.company_name_and_address_div, .invoice_div, .delivery_address_div, .invoice_no_order_id_order_date_and_payment_mode_div{
+   width: 50%;
+   float: left;
+}
+
+.invoice_word_h5{
+  text-align: right;
+}
+
+th{
+  border: 2px solid black;
+}
+
+.invoice_no_order_id_order_date_and_payment_mode_div{
+  /* margin-left: 115px; */
+  margin-left: 128px;
+}
+
+/* table{
+  overflow: wrap;
+} */
+
+.user_name_h6{
+   text-transform: capitalize;
+}
